@@ -7,7 +7,7 @@ id INT PRIMARY KEY AUTO_INCREMENT,
 resposta VARCHAR(80)
 );
 
-INSERT INTO tb_respostas (resposta) VALUES ('Rio de Janeiro');
+INSERT INTO tb_respostas (resposta) VALUES ('América');
 INSERT INTO tb_respostas (resposta) VALUES ('Kim Jong-un') ;
 INSERT INTO tb_respostas (resposta) VALUES ('Central park') ;
 INSERT INTO tb_respostas (resposta) VALUES ('Telescopio James Webb') ;

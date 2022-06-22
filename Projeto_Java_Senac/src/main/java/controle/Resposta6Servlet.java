@@ -34,7 +34,7 @@ public class Resposta6Servlet extends HttpServlet {
 
 		UsuarioDAO dao = new UsuarioDAO();
 
-		u = dao.resposta3(Resposta);
+		u = dao.resposta6(Resposta);
 
 		if (u != null) {
 			response.sendRedirect("final.jsp");

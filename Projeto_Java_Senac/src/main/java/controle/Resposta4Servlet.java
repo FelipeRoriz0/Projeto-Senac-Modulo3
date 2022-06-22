@@ -34,7 +34,7 @@ public class Resposta4Servlet extends HttpServlet {
 
 		UsuarioDAO dao = new UsuarioDAO();
 
-		u = dao.resposta3(Resposta);
+		u = dao.resposta4(Resposta);
 
 		if (u != null) {
 			response.sendRedirect("pergunta5.jsp");
