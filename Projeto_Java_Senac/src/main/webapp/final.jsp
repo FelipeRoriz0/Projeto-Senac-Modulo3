@@ -13,7 +13,7 @@
     <br>
     <div id="imagem">
         <h2>Fim de Jogo</h2>
-    <img src="imagem/gameover.png" alt=""  width="750px" height="530px"> <br> <br>
+    <img src="imagem/gameover.jpg" alt=""  width="750px" height="530px"> <br> <br>
 
 </div>
 	<div id="botao">

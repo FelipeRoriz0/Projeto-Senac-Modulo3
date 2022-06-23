@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import dao.UsuarioDAO;
 import model.Usuario;
 
-@WebServlet("/LoginServlet")
+@WebServlet("/Resposta1Servlet")
 public class Resposta1Servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -33,7 +33,7 @@ public class Resposta1Servlet extends HttpServlet {
 
 		UsuarioDAO dao = new UsuarioDAO();
 
-		u = dao.consultarUsuario(Resposta);
+		u = dao.resposta(Resposta);
 
 		if (u != null) {
 			response.sendRedirect("pergunta2.jsp");
@@ -45,6 +45,3 @@ public class Resposta1Servlet extends HttpServlet {
 		
 	}
 }
-	
-
-

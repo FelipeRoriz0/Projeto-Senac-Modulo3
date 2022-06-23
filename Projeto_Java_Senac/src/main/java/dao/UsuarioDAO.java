@@ -146,7 +146,7 @@ public Usuario resposta2(String resposta2) {
 		return usuario;
 	}
 
-public Usuario consultarUsuario(String resposta) {
+public Usuario resposta(String resposta) {
 		Usuario usuario = null;
 		ResultSet rs = null;
 		cnx = DAO.createConnection();

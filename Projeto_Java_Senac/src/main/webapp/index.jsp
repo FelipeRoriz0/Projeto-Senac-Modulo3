@@ -1,15 +1,13 @@
-<%@page import="model.Usuario"%>
-<%@page import="dao.UsuarioDAO"%>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content='width=device-width' name='viewport'/>
+<meta content='width=device-width.initial-scale=1.0' name='viewport'/>
+<meta content='IE=edge'htpps-equiv='X-UA-Compatible'/>
     <title>Quiz</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
    
     <br>
@@ -18,7 +16,6 @@
         <h1>INSTRUÇÕES</h1>
         <h2>No exemplo a baixo temos a imagem do Homer Simpson </h2>
         <h2>basta colocar o nome na caixa de texto e apertar no pronto ou seja autoexplicativo</h2>
-        <h2>Atenção todas as palavras começa com letra Maiusculas e algumas possuem acento.</h2>
         <img src="imagem/Capturar.PNG" alt=""  width="800px">  <br> <br>
 
 
