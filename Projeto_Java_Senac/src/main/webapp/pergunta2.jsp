@@ -23,7 +23,7 @@
 <form action="Resposta2Servlet" method="post">
 
 <div id="botao">
-    <input class="text" type="text" name="resposta2" id="resposta2" placeholder="resposta">
+    <input class="text" type="text" name="resposta2" id="resposta2" placeholder="Resposta">
     <input  class="botao" type="submit" value="Pronto">
     </div>
     
